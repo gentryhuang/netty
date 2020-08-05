@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/echo/EchoServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/echo/EchoClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/echo/EchoClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/echo/EchoServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/proxy/HexDumpProxy.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/proxy/HexDumpProxyInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/proxy/HexDumpProxyFrontendHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/proxy/HexDumpProxyBackendHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/file/FileServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/file/FileServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/discard/DiscardClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/discard/DiscardServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/discard/DiscardClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/discard/DiscardServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/securechat/SecureChatClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/securechat/SecureChatClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/securechat/SecureChatServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/securechat/SecureChatServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/securechat/SecureChatServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/securechat/SecureChatClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/redis/RedisClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/redis/RedisClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/NumberEncoder.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/FactorialServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/FactorialServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/BigIntegerDecoder.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/FactorialServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/FactorialClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/FactorialClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/factorial/FactorialClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/server/Http2OrHttpHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/server/HelloWorldHttp2HandlerBuilder.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/server/HelloWorldHttp1Handler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/server/Http2Server.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/server/HelloWorldHttp2Handler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/server/Http2ServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/frame/server/Http2OrHttpHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/frame/server/Http2Server.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/frame/server/HelloWorldHttp2Handler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/frame/server/Http2ServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/multiplex/server/Http2OrHttpHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/multiplex/server/Http2Server.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/multiplex/server/HelloWorldHttp2Handler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/multiplex/server/Http2ServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/client/Http2Client.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/client/Http2ClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/client/HttpResponseHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/helloworld/client/Http2SettingsHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/Http2ExampleUtil.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/Http2RequestHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/Http2OrHttpHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/Html.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/Http1RequestHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/HttpServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/Http2Server.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/FallbackRequestHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/ImageCache.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http2/tiles/Launcher.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/SocksServerUtils.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/RelayHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/SocksServerConnectHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/DirectClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/SocksServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/SocksServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/socksproxy/SocksServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/memcache/binary/MemcacheClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/memcache/binary/MemcacheClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/server/SpdyOrHttpHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/server/SpdyServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/server/SpdyServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/server/SpdyServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/server/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/client/SpdyClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/client/SpdyFrameLogger.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/client/SpdyClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/client/SpdyClientStreamIdHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/client/HttpResponseClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/spdy/client/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/file/HttpStaticFileServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/file/HttpStaticFileServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/file/HttpStaticFileServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/cors/HttpCorsServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/cors/HttpCorsServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/cors/OkResponseHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerBenchmarkPage.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/WebSocketServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/benchmarkserver/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServerIndexPage.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketFrameHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketIndexPageHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/server/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/client/WebSocketClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/websocketx/client/WebSocketClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/upload/HttpUploadClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/upload/HttpUploadServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/upload/HttpUploadClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/upload/HttpUploadServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/upload/HttpUploadClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/http/upload/HttpUploadServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/stomp/StompClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/stomp/StompClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/bytes/ByteEchoServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/bytes/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerTwo.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerBase.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/Config.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerOne.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerOne.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerBase.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerTwo.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/rendezvousBytes/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/message/MsgEchoClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/message/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/echo/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/udt/package-info.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/sctp/multihoming/SctpMultiHomingEchoServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/sctp/multihoming/SctpMultiHomingEchoClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/sctp/SctpEchoClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/sctp/SctpEchoClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/sctp/SctpEchoServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/sctp/SctpEchoServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/worldclock/WorldClockProtocol.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/ocsp/OcspUtils.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/ocsp/OcspServerExample.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/ocsp/Digester.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/ocsp/OcspClientExample.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/ocsp/OcspRequestBuilder.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/localecho/LocalEchoServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/localecho/LocalEcho.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/localecho/LocalEchoClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/qotm/QuoteOfTheMomentServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/uptime/UptimeClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/uptime/UptimeClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/uptime/UptimeServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/uptime/UptimeServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/objectecho/ObjectEchoClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/objectecho/ObjectEchoServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/objectecho/ObjectEchoServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/objectecho/ObjectEchoClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/portunification/PortUnificationServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/portunification/PortUnificationServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/telnet/TelnetClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/telnet/TelnetServerInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/telnet/TelnetClientInitializer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/telnet/TelnetClientHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/telnet/TelnetServer.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/telnet/TelnetServerHandler.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/rxtx/RxtxClient.java">
+</file>
+<file name="/Users/huanglibao/resource-code/netty/example/src/main/java/io/netty/example/rxtx/RxtxClientHandler.java">
+</file>
+</checkstyle>
